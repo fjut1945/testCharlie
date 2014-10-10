@@ -7,7 +7,8 @@ CREATE TABLE [dbo].[GitTest2] (
 		[2eeee]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[3eeee]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[4eeee]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-		[5eeee]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+		[5eeee]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[6eeee]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[GitTest2] SET (LOCK_ESCALATION = TABLE)
